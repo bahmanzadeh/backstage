@@ -6,7 +6,7 @@ backstage:
    extraAppConfig:
      - filename: app-config.extra.yaml
        configMapRef: my-app-config    
-POSTGRES_HOST=localhost #or export POSTGRES_HOST=localhost
+
 # keep postgresql.auth.existingSecret empty
 # Set postgresql.auth.password to your desired User password value
 
